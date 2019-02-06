@@ -1,0 +1,10 @@
+.navbar {
+    padding-top: $navbar-padding-top;
+
+    .navbar-brand {
+        font-family:        $font-family-title;
+        text-transform:     $navbar-transform;
+        margin-right:       $navbar-brand-margin-right;
+        margin-left:        $navbar-brand-margin-left;
+    }
+}
