@@ -9,7 +9,8 @@ import { Links } from 'src/app/models/links';
 export class NavbarComponent implements OnInit {
 
   links: Links[] = [
-    { title: 'Em Cartaz', route: '' },
+    { title: 'Em Cartaz',   route: '' },
+    { title: 'Localização', route: 'batata' },
   ];
 
   @Input() title: string;

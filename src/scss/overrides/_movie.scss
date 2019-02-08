@@ -1,0 +1,60 @@
+
+.movie {
+    border:             1px solid $light;
+    border-radius:      $border-radius-base;
+    margin:             0 1px;
+
+    background:         lighten($light, 30%);
+
+    box-shadow:         2px 2px 2px $shadow-color-light;
+}
+
+.movie-info {
+    padding:        $padding-base-y $padding-base-y;
+}
+
+.poster {
+    z-index:            $poster-z-index;
+    img {
+        width: 100%;
+        height:         $poster-size-height-base;
+        border-radius:  $poster-border-radius;        
+    }
+    
+}
+
+.movie-footer {
+    position:   absolute;
+    bottom:     0;
+    left:       0;
+    z-index: 1;
+}
+
+.btn-see-more {
+    background:     $success;
+    color:          $white;
+    border:         none;
+    border-radius:  $see-more-border-radius;
+
+    padding:        $padding-sm-y $padding-base-x;
+
+    
+    
+    &:hover {
+
+        &::after {
+            width: max-content;
+            background:     $success;
+            content:        "Mais Informações";
+            padding:        $padding-sm-y $padding-base-x;
+
+            position: absolute;
+            top: 0;
+            left: -148px;
+            z-index: 0;
+            // transform: translateX(-152px);
+
+            animation: mais-info .2s ease forwards;
+        }
+    }
+}

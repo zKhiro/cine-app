@@ -1,8 +1,7 @@
 // Importing fonts
-// Hind Vadodara
 @import url('https://fonts.googleapis.com/css?family=Hind+Vadodara:300,500,700');
-// Heebo
-@import url('https://fonts.googleapis.com/css?family=Heebo:900');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:500');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:500');
 
 
 // Importing custom variables
@@ -13,3 +12,5 @@
 
 // Importing overrides
 @import "overrides/overrides.scss";
+
+@import "animation/animation.scss";

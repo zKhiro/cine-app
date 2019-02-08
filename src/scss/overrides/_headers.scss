@@ -2,3 +2,7 @@ h1, h2, h3,
 h4, h5, h6 {
     text-transform: $headings-transform !important;
 }
+
+h1 {
+    letter-spacing: $headings-letter-spacing;
+}

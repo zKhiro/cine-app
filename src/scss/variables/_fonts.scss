@@ -1,7 +1,9 @@
 
-$font-family-title:             'Heebo', 'Helvetica', 'Arial', sans-serif;
+$font-family-title:             'Work Sans', 'Helvetica', 'Arial', sans-serif;
 $font-family-sans-serif:        'Hind Vadodara', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-navbar:            'Fira Sans', $font-family-sans-serif;
 $font-family-base:              $font-family-sans-serif !default;
+$font-family-rating-number:     'Impact';
 
 $font-size-base:                1rem !default; // Assumes the browser default, typically `16px`
 $font-size-lg:                  ($font-size-base * 1.5) !default;
@@ -25,4 +27,4 @@ $headings-line-height:          1.2 !default;
 $headings-color:                inherit !default;
 $headings-transform:            uppercase !default;
 
-$navbar-transform:              uppercase !default;
+$headings-letter-spacing:       .9px !default;

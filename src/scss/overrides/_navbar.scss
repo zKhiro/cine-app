@@ -1,10 +1,29 @@
 .navbar {
-    padding-top: $navbar-padding-top;
+    font-family:            $font-family-navbar;
+    box-shadow:             $navbar-shadow;
+    text-transform:         $navbar-transform;
 
     .navbar-brand {
-        font-family:        $font-family-title;
-        text-transform:     $navbar-transform;
         margin-right:       $navbar-brand-margin-right;
         margin-left:        $navbar-brand-margin-left;
     }
+
+    .nav-link {
+        font-size:  $font-size-sm;
+        padding:    $navbar-nav-link-padding-y  $navbar-nav-link-padding-x;
+        margin:     $navbar-nav-link-margin-y   $navbar-nav-link-margin-x;
+
+        letter-spacing: .6px;
+
+        transition: $time-base color, $time-base box-shadow;
+
+        &:hover {
+            box-shadow: $navbar-nav-link-hover-border;
+            transition: $time-base color, $time-base box-shadow;
+        }
+    }
+}
+
+.bg-navbar-icon {
+
 }

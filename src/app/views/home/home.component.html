@@ -1,3 +1,13 @@
-<p>
-  home works!
-</p>
+<main class="container mt-4">
+  <section class="card-programacao">
+    <i class="icon-calendar far fa-calendar-alt"></i>
+    <h2 class="mb-0 text-warning">07 <h5 class="d-inline">à</h5> 13</h2>
+    <h1>Fevereiro</h1>
+  </section>
+  <!-- <p><mark>07 até 13</mark> de Fevereiro</p> -->
+  <section class="row home-body bg-white text-black">
+    <div class="col-xl-6" *ngFor="let movie of movies">
+      <app-movie [movie] = "movie"></app-movie>
+    </div>
+  </section>
+</main>

@@ -1,0 +1,51 @@
+.rating-tag:not(.livre){
+    padding: 2px 6px;
+}
+
+.rating-tag {
+    font-size: 15px;
+    padding: 2px 9.7px;
+    color: $color-rating;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: 700;
+    margin-right: 10px;
+    
+}
+
+.rating-tag.livre {
+    background-color: $bg-rating-livre;
+    &:after{
+        content: 'L';
+    }
+}
+.rating-tag._10 {
+    background-color: $bg-rating-10;
+    &:after{
+        content: '10';
+    }
+}
+.rating-tag._12 {
+    background-color: $bg-rating-12;
+    &:after{
+        content: '12';
+    }
+}
+.rating-tag._14 {
+    background-color: $bg-rating-14;
+    &:after{
+        content: '14';
+    }
+}
+.rating-tag._16 {
+    background-color: $bg-rating-16;
+    &:after{
+        content: '16';
+    }
+}
+.rating-tag._18 {
+    background-color: $bg-rating-18;
+    &:after{
+        content: '18';
+    }
+}
