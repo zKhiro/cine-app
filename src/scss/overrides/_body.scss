@@ -1,0 +1,10 @@
+body {
+    background-color:   $dark;
+    color:              $white;
+}
+
+.home-body {
+    padding:        $padding-base-y    $padding-base-x;
+    border-radius:  $border-radius-base-top;
+    box-shadow:     0 6px $primary, $home-body-shadow;
+}

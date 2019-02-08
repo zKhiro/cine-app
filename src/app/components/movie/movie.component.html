@@ -1,0 +1,24 @@
+<section class="movie row">
+  <figure class = "col-5 p-0 poster">
+    <img [src]="ADDRESS_POSTERS + movie.poster" alt="poster-movie">
+  </figure>
+  <article class = "movie-info col-7">
+    <header>
+      <h5>{{ movie.title }}</h5>
+      <p class="badge badge-success mr-2" *ngFor="let genres of movie.genres">{{ genres }}</p>
+    </header>
+    <section>
+      <p>{{ movie.synopsis }}</p>
+    </section>
+    <section>
+      <span class="rating-tag livre" title="Livre para todas as idades"></span>
+      <figure class="d-inline" *ngIf="is3D">
+        <b class="mr-1">3D</b>
+        <img [src]="ICON_3D" alt="3D-Glasses" title="Tecnologia 3D">
+      </figure>
+    </section>
+    <footer class="movie-footer">
+      <button class="btn-see-more"><i class="fas fa-plus"></i></button>
+    </footer>
+  </article>
+</section>

@@ -1,0 +1,23 @@
+// $navbar-bg-image:                       url('/assets/navbar/bg-navbar.jpg') !default;
+// $navbar-bg-position:                    center;
+// $navbar-bg-repeat:                      no-repeat;
+
+$navbar-padding-y:                      0 !default;
+$navbar-padding-x:                      1rem !default;
+
+$navbar-shadow:                         0 2px 2px $shadow-color-base !default;
+
+$navbar-nav-link-padding-x:             .8rem !default;
+$navbar-nav-link-padding-y:             1.3rem !default;
+$navbar-nav-link-margin-y:              0 !default;
+$navbar-nav-link-margin-x:              1rem !default;
+
+$navbar-nav-link-hover-border:          inset 0 9px 0 24px $darker, inset 0 -18px $primary;
+
+$navbar-brand-font-size:                $font-size-lg !default;
+$navbar-brand-margin-right:             1.5rem !default;
+$navbar-brand-margin-left:              0 !default;
+
+$navbar-transform:                      uppercase !default;
+
+$navbar-letter-spacing:                 .8px !default;

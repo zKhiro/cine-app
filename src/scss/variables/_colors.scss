@@ -1,0 +1,48 @@
+
+$white:             #F7FBFF;
+$true-white:        #FFF;
+$black:             #081316;
+$transparent:       transparent;
+
+// Color palette in: https://coolors.co/8c110c-961c18-005482-e3b505-963421
+$primary:           #8C1212 !default;
+$secondary:         #961C18 !default;
+$usafa-blue:        #005482 !default;   // Talvez...
+$citrine:           #E3B505 !default;   // Talvez...
+$burnt-umber:       #963421 !default;   // Talvez...
+
+$success:           #20AA40 !default;
+$info:              #098A99 !default;
+$warning:           #FFC43D !default;
+$danger:            #89101A !default;
+$light:             #B8B08D !default;
+$dark:              #151D26 !default;
+$darker:            darken($dark, 2%) !default;
+
+$shadow-color-base: #00000054;
+$shadow-color-light:#00000017;
+
+$calendar-color:      $shadow-color-base;
+
+// Brazilian rating system
+// More info: 
+
+$color-rating:              #FFFFFF;
+
+$bg-rating-livre:           #00A651;
+$bg-rating-10:              #0095DA;
+$bg-rating-12:              #FBC115;
+$bg-rating-14:              #F58220;
+$bg-rating-16:              #EC1D25;
+$bg-rating-18:              #000000;
+
+// font-family: "Poppins-Regular";
+// font-size: 10px;
+// padding: 6px 9px;
+// color: #fff;
+// border-radius: 3px;
+// text-align: center;
+// font-weight: 700;
+// top: -6px;
+// position: relative;
+// margin-left: 10px;
