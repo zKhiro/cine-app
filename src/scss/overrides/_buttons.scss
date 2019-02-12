@@ -1,0 +1,13 @@
+.btn-see-more {
+    background:         lighten($usafa-blue, 10%);
+    color:              $white;
+    border:             none;
+    border-radius:      $see-more-border-radius;
+    display:            none;
+
+    cursor:             $btn-cursor;
+
+    padding:            $spacing-sm-y $spacing-base-x;
+
+    @include position-absolute(0, -167px);
+}

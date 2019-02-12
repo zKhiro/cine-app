@@ -4,7 +4,7 @@ body {
 }
 
 .home-body {
-    padding:        $padding-base-y    $padding-base-x;
+    padding:        $spacing-base-y    $spacing-base-x;
     border-radius:  $border-radius-base-top;
     box-shadow:     0 6px $primary, $home-body-shadow;
 }

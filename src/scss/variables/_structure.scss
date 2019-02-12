@@ -1,13 +1,15 @@
 
-$padding-base-y:            .8rem !default;
-$padding-lg-y:              ($padding-base-y * 1.5) !default;
-$padding-sm-y:              ($padding-base-y * .875) !default;
+$spacing-base-y:            .6rem !default;
+$spacing-lg-y:              ($spacing-base-y * 1.5) !default;
+$spacing-sm-y:              ($spacing-base-y * .875) !default;
 
-$padding-base-x:            .8rem !default;
-$padding-lg-x:              ($padding-base-x * 1.5) !default;
-$padding-sm-x:              ($padding-base-x * .875) !default;
+$spacing-base-x:            .8rem !default;
+$spacing-lg-x:              ($spacing-base-x * 1.5) !default;
+$spacing-sm-x:              ($spacing-base-x * .875) !default;
 
 $border-radius-base:                2px;
 $border-radius-base-top:            2px 2px 0 0;
 
 $time-base:                 .14s;
+$time-lg:                   ($time-base * 1.2);
+$time-xl:                   ($time-base * 2);

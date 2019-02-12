@@ -1,60 +1,39 @@
-
 .movie {
+    height:             $movie-size-height-base;
     border:             1px solid $light;
     border-radius:      $border-radius-base;
-    margin:             0 1px;
+    margin:             0 auto;
+    box-shadow:         $movie-shadow-position $shadow-color-light;
 
-    background:         lighten($light, 30%);
-
-    box-shadow:         2px 2px 2px $shadow-color-light;
-}
-
-.movie-info {
-    padding:        $padding-base-y $padding-base-y;
-}
-
-.poster {
-    z-index:            $poster-z-index;
-    img {
-        width: 100%;
-        height:         $poster-size-height-base;
-        border-radius:  $poster-border-radius;        
-    }
-    
-}
-
-.movie-footer {
-    position:   absolute;
-    bottom:     0;
-    left:       0;
-    z-index: 1;
-}
-
-.btn-see-more {
-    background:     $success;
-    color:          $white;
-    border:         none;
-    border-radius:  $see-more-border-radius;
-
-    padding:        $padding-sm-y $padding-base-x;
-
-    
-    
     &:hover {
-
-        &::after {
-            width: max-content;
-            background:     $success;
-            content:        "Mais Informações";
-            padding:        $padding-sm-y $padding-base-x;
-
-            position: absolute;
-            top: 0;
-            left: -148px;
-            z-index: 0;
-            // transform: translateX(-152px);
-
-            animation: mais-info .2s ease forwards;
+        .poster {
+            transition:         $time-xl ease background-size;
+            background-size:    $bg-poster-zoom;
+        }
+        .btn-see-more {
+            display:    block;
+            animation:  $more-info $time-xl forwards;
         }
     }
+}
+.movie-title{
+    overflow:           auto;
+    min-height:         $movie-title-size-min-height;
+    max-height:         $movie-title-size-max-height;
+}
+.movie-info {
+    padding:            $spacing-base-y $spacing-base-y;
+    background:         lighten($light, 30%);
+    border-radius:      ($border-radius-base - 1);
+    z-index:            $movie-info-z-index;
+}
+.poster {
+    border-radius:      $poster-border-radius;
+    z-index:            0;
+    transition:         $time-xl ease background-size;
+    
+    @include background-base;
+}
+.synopsis {
+    margin:             $spacing-sm-y 0;
 }

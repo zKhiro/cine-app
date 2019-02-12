@@ -10,6 +10,7 @@ export interface Movie {
         weekDays:       string[],
         time:           string[],
         is3D:           boolean,
+        isSubtitled:    boolean,
     }[];
 
 }

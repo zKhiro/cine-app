@@ -5,12 +5,18 @@
 
 
 // Importing custom variables
-@import "variables/variables.scss";
+@import "./variables/variables";
+
+// Importing mixins
+@import "./mixins/mixins";
+
+// Importing mixins
+@import "./media/media";
 
 // Importing Bootstrap 4.2
 @import "~bootstrap/scss/bootstrap";
 
 // Importing overrides
-@import "overrides/overrides.scss";
+@import "./overrides/overrides";
 
-@import "animation/animation.scss";
+@import "./animation/animation";

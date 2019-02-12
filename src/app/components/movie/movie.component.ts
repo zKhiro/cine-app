@@ -11,7 +11,8 @@ export class MovieComponent implements OnInit {
   private readonly ADDRESS_POSTERS = '/assets/posters/';
   private readonly ICON_3D = '/assets/svgs/glasses.svg';
 
-  private is3D: boolean;
+  private is3D:  boolean;
+  private isSubtitled: boolean;
 
   @Input() movie: Movie;
 
@@ -25,6 +26,10 @@ export class MovieComponent implements OnInit {
     schedules.forEach(el => {
       if (el.is3D) {
         this.is3D = true;
+      }
+      
+      if (el.isSubtitled) {
+        this.isSubtitled = true;
       }
     });
   }

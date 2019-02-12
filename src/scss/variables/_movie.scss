@@ -1,7 +1,11 @@
 
-$poster-size-height-base:        auto;
+$movie-size-width-base:          100%;
+$movie-size-height-base:         320px;
+$movie-shadow-position:          2px 2px 2px;
+
+$movie-title-size-min-height:    27px;
+$movie-title-size-max-height:    51px;
+
 $poster-border-radius:           1px 0 0 1px;
-$poster-z-index:                 3;
-
-
-$see-more-border-radius:         0 0 1px 0;
+$movie-info-z-index:             3;
+$bg-poster-zoom:                 106% 106%;
